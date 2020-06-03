@@ -1,0 +1,533 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "bankrupts",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "per",
+                    "type": "uint64"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                },
+                {
+                    "name": "esum",
+                    "type": "asset"
+                },
+                {
+                    "name": "done_sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "all",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "close",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "create",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "name": "gender",
+                    "type": "string"
+                },
+                {
+                    "name": "age",
+                    "type": "uint64"
+                },
+                {
+                    "name": "passport_id",
+                    "type": "int64"
+                }
+            ]
+        },
+        {
+            "name": "credit",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "credits",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "per",
+                    "type": "uint64"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                },
+                {
+                    "name": "esum",
+                    "type": "asset"
+                },
+                {
+                    "name": "done_sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "next_sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "rest",
+                    "type": "asset"
+                },
+                {
+                    "name": "end_data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "next_data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "all",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "delays",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "pr_months",
+                    "type": "uint64"
+                },
+                {
+                    "name": "per",
+                    "type": "uint64"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                },
+                {
+                    "name": "esum",
+                    "type": "asset"
+                },
+                {
+                    "name": "done_sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "next_sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "rest",
+                    "type": "asset"
+                },
+                {
+                    "name": "end_data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "all",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "manager",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "mdata",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "paycredit",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "paysaving",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "person",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "name"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "name": "gender",
+                    "type": "string"
+                },
+                {
+                    "name": "age",
+                    "type": "uint64"
+                },
+                {
+                    "name": "passport_id",
+                    "type": "int64"
+                },
+                {
+                    "name": "creditstatus",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "processing",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "requests",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "per",
+                    "type": "uint64"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                },
+                {
+                    "name": "data",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "review",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "saving",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "savings",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "sum",
+                    "type": "asset"
+                },
+                {
+                    "name": "per",
+                    "type": "uint64"
+                },
+                {
+                    "name": "months",
+                    "type": "uint64"
+                },
+                {
+                    "name": "fdata",
+                    "type": "uint32"
+                },
+                {
+                    "name": "end_data",
+                    "type": "uint32"
+                },
+                {
+                    "name": "all",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "transfer",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "to",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "wallets",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "funds",
+                    "type": "asset"
+                },
+                {
+                    "name": "data",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "withdraw",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "close",
+            "type": "close",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "create",
+            "type": "create",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "credit",
+            "type": "credit",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "paycredit",
+            "type": "paycredit",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "paysaving",
+            "type": "paysaving",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "processing",
+            "type": "processing",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "review",
+            "type": "review",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "saving",
+            "type": "saving",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "transfer",
+            "type": "transfer",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdraw",
+            "type": "withdraw",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "bankrupt",
+            "type": "bankrupts",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "credit",
+            "type": "credits",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "delay",
+            "type": "delays",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "manager",
+            "type": "manager",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "people",
+            "type": "person",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "request",
+            "type": "requests",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "saving",
+            "type": "savings",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "wallet",
+            "type": "wallets",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
